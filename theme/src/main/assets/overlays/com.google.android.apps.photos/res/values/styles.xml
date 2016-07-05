@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText" parent="@*android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="Base.CardView" parent="@*android:style/Widget">
+        <item name="cardCornerRadius">2.0dip</item>
+        <item name="cardElevation">2.0dip</item>
+        <item name="cardMaxElevation">2.0dip</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView" />
+ 
+
+    <style name="DrawerMenu" />
+    <style name="DrawerMenu.AccountItem" parent="@style/DrawerMenu" />
+    <style name="DrawerMenu.AccountItem.TextStyle" parent="@style/DrawerMenu.AccountItem">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="FloatingSearchBarCardView">
+        <item name="android:layout_marginLeft">2.3499756dip</item>
+        <item name="android:layout_marginRight">2.3499756dip</item>
+        <item name="cardBackgroundColor">@*common:color/dom_action_card</item>
+        <item name="cardCornerRadius">2.0dip</item>
+        <item name="cardElevation">2.0dip</item>
+        <item name="cardMaxElevation">4.6999817dip</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="LabelPreference" />
+    <style name="LabelPreference.Label" parent="@style/LabelPreference">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="LabelPreference.Summary" parent="@style/LabelPreference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="LabelPreference.Title" parent="@style/LabelPreference">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme" />
+
+
+    <style name="StoriesEditTextTheme" parent="@*android:style/Theme.Holo.Dialog" />
+
+
+    <style name="Widget.MediaRouter.ChooserText" parent="">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary" parent="@style/Widget.MediaRouter.ChooserText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@style/Widget.MediaRouter.ChooserText.Primary">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary" parent="@style/Widget.MediaRouter.ChooserText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
+        <item name="android:textColor">#8affffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary.Light" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
+        <item name="android:textColor">#8affffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText" parent="@style/Widget.MediaRouter.ChooserText" />
+    <style name="Widget.MediaRouter.ControllerText.Primary" parent="@style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Primary.Dark" parent="@style/Widget.MediaRouter.ControllerText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Primary.Light" parent="@style/Widget.MediaRouter.ControllerText.Primary">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary" parent="@style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary.Dark" parent="@style/Widget.MediaRouter.ControllerText.Secondary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary.Light" parent="@style/Widget.MediaRouter.ControllerText.Secondary">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title" parent="@style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title.Dark" parent="@style/Widget.MediaRouter.ControllerText.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title.Light" parent="@style/Widget.MediaRouter.ControllerText.Title">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+
+</resources>

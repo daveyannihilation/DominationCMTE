@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bt_nav_separator_height">0px</dimen>
+    <dimen name="bt_nav_spacer_height">0dip</dimen>
+    <dimen name="bt_nav_title_entry_height">0dip</dimen>
+    <dimen name="bt_nav_title_text_size">0sp</dimen>
+
+</resources>

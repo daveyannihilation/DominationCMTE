@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogTheme" parent="@style/TimePickerTheme" />
+    <style name="PopupMenu" parent="@android:style/Theme.Material" />
+    <style name="TimeLabelTextAppearance" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">60.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="AmPmTextAppearance" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

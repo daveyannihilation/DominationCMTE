@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="qp_grey_icon" parent="@style/qp_icon_no_tint">
+        <item name="android:layout_width">24.0dip</item>
+        <item name="android:layout_height">24.0dip</item>
+        <item name="android:tint">#ffffffff</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+    <style name="lotic_cap_icon" parent="@style/lotic_cap_icon_no_tint">
+        <item name="android:layout_width">18.0dip</item>
+        <item name="android:layout_height">18.0dip</item>
+        <item name="android:tint">#ffffffff</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+    <style name="qp_icon" parent="@style/qp_icon_no_tint">
+        <item name="android:layout_width">24.0dip</item>
+        <item name="android:layout_height">24.0dip</item>
+        <item name="android:tint">#ffffffff</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+</resources>

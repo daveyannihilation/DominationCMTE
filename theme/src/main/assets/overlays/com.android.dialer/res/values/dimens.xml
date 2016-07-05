@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="in_call_button_dimension">48.0dip</dimen>
+    <dimen name="call_button_margin_horizontal">6.0dip</dimen>
+    <dimen name="call_button_margin_vertical">8.0dip</dimen>
+    <dimen name="action_bar_height">56.0dip</dimen>
+    <dimen name="action_bar_elevation">2dp</dimen>
+    <dimen name="incall_action_bar_elevation">3.0dip</dimen>
+    <dimen name="actionbar_contentInsetStart">72.0dip</dimen>
+    <dimen name="contact_browser_list_item_gap_between_image_and_text">15.0dip</dimen>
+    <dimen name="contact_browser_list_item_photo_size">40.0dip</dimen>
+    <dimen name="contact_browser_list_item_text_indent">8.0dip</dimen>
+    <dimen name="dialpad_key_numbers_size">36.0sp</dimen>
+    <dimen name="dialpad_key_margin_right">9.0dip</dimen>
+    <dimen name="dialpad_key_pound_size">23.0sp</dimen>
+    <dimen name="dialpad_key_star_size">36.0sp</dimen>
+    <dimen name="dialpad_key_letters_size">12.0sp</dimen>
+    <dimen name="dialpad_key_plus_size">18.0sp</dimen>
+    <dimen name="dialpad_key_height">64.0dip</dimen>
+    <dimen name="dialpad_bottom_key_height">65.0dip</dimen>
+    <dimen name="dialpad_key_number_left_margin">26.0dip</dimen>
+    <dimen name="list_section_divider_min_height">32.0dip</dimen>
+    <dimen name="action_bar_height_large">64.0dip</dimen>
+    <dimen name="tab_text_size">14.0sp</dimen>
+    <dimen name="dismiss_button_padding_start">20.0dip</dimen>
+    <dimen name="dismiss_button_padding_end">28.0dip</dimen>
+    <dimen name="call_log_action_height">44.0dip</dimen>
+    <dimen name="call_log_action_horizontal_padding">24.0dip</dimen>
+</resources>

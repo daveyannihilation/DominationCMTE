@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">@*android:style/TextAppearance.Medium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32.0dip</item>
+        <item name="android:popupBackground">#ff000000</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+    </style>
+    <style name="ChipTitleStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:id">@*android:id/title</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">#ff000000</item>
+    </style>
+    <style name="ChipSubtitleStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:id">@*android:id/text1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">#ff000000</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">#ff000000</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">#ff000000</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">#ff000000</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@style/Base.TextAppearance.AppCompat.SearchResult">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">#ff000000</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHighlight">#ff999999</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">112.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">56.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">34.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@style/Base.TextAppearance.AppCompat.Large">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@style/Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@style/Base.TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="AbstractComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+    <style name="MessageButtonStyleBase" parent="@*android:style/Widget.Holo.Button.Borderless" />
+    <style name="MessageAttachmentButtonBaseStyle" parent="@style/MessageButtonStyleBase">
+        <item name="android:textAppearance">@*android:style/TextAppearance.Small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ActionBarTextAppearanceLargeStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarTextAppearanceSmallStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="WaitFragmentTitleBase" parent="@*android:style/Widget.Holo.TextView" />
+    <style name="WaitFragmentTitle" parent="@style/WaitFragmentTitleBase">
+        <item name="android:textAppearance">@*android:style/TextAppearance.Large</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="VacationResponderActionButtonText">
+        <item name="android:textAppearance">@*android:style/TextAppearance.Material.Widget.ActionBar.Menu</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Material">
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Material.ListView</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">#ff000000</item>
+    </style>
+    <style name="Promo" />
+    <style name="Promo.Text" parent="@style/Promo">
+        <item name="android:textColor">#ffd32f2f</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+
+    <style name="secondaryText" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="LabelSyncTheme" parent="@*android:style/Theme.Holo.Dialog" />
+    <style name="GmailTheme.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />
+    <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@style/GmailTheme.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.Fullscreen" parent="@*android:style/Theme.Material.NoActionBar.Fullscreen" />
+</resources>

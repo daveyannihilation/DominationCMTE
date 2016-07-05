@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Light.CustomOverscroll" parent="@android:style/Theme.Material" />
+    <style name="Theme.Dark.CustomOverscroll" parent="@android:style/Theme.Material" />
+    <style name="Settings" parent="@android:style/Theme.Material">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

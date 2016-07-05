@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_material_light">#ff989898</color>
+    <color name="accent_material_dark">#ff787878</color>
+    <color name="dom_action_card">#ff111111</color>
+    <color name="dom_blue_700">#ff1976d2</color>
+    <color name="dom_blue_900">#ff0d47a1</color>
+    <color name="dom_bluegrey_700">#ff455a64</color>
+    <color name="dom_bluegrey_900">#ff263238</color>
+    <color name="dom_cyan_700">#ff0097a7</color>
+    <color name="dom_cyan_900">#ff006064</color>
+    <color name="dom_green_700">#ff388e3c</color>
+    <color name="dom_green_900">#ff1b5e20</color>
+    <color name="dom_indigo_700">#ff303f9f</color>
+    <color name="dom_indigo_900">#ff1a237e</color>
+    <color name="dom_orange_700">#ffe64a19</color>
+    <color name="dom_orange_900">#ffbf360c</color>
+    <color name="dom_purple_700">#ff512da8</color>
+    <color name="dom_purple_900">#ff311b92</color>
+    <color name="dom_red_700">#ffd32f2f</color>
+    <color name="dom_red_900">#ffb71c1c</color>
+    <color name="dom_teal_700">#ff00796b</color>
+    <color name="dom_teal_900">#ff004d40</color>
+    <color name="dom_yellow_700">#fffcb02d</color>
+    <color name="dom_yellow_900">#fff57f17</color>
+    <color name="ripple_material_dark">#4dffffff</color>
+    <color name="selected">#ff555555</color>
+</resources>

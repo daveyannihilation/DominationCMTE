@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CellBroadcastSettingsTheme" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">#ff111111</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorAccent">@*common:color/accent_material_dark</item>
+        <item name="android:navigationBarColor">#ff000000</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material" />
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large" />
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium" />
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="ConversationListFadeBase" parent="@*android:style/Widget.Material.ListView" />
+
+    <style name="MinTimeProgressViewStyle" parent="@*android:style/Widget.Material.ProgressBar" />
+    <style name="MinTimeProgressDialogStyleBase" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="ActionBarOverflowButtonStyle" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Material">
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Material.ListView</item>
+        <item name="android:actionModeBackground">@*android:color/background_dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
+        <item name="android:colorPrimary">@*common:color/dom_orange_700</item>
+        <item name="android:colorPrimaryDark">@*common:color/dom_orange_900</item>
+        <item name="android:colorAccent">@*common:color/dom_blue_700</item>
+        <item name="android:colorEdgeEffect">@*common:color/accent_material_dark</item>
+    </style>
+
+    <style name="AccountSetupDialogActivityTheme" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="android:colorPrimary">@*common:color/dom_orange_700</item>
+        <item name="android:colorPrimaryDark">@*common:color/dom_orange_900</item>
+        <item name="android:colorAccent">@*common:color/dom_blue_700</item>
+    </style>
+
+</resources>

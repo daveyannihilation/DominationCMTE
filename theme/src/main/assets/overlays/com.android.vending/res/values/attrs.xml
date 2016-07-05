@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="action_xpadding" format="dimension" />
+    <attr name="action_top_padding" format="dimension" />
+    <attr name="action_bottom_padding" format="dimension" />
+    <attr name="gap" format="dimension" />
+    <attr name="star_height" format="dimension" />
+    <attr name="star_color" format="color" />
+    <attr name="star_bg_color" format="color" />
+    <attr name="playCardBackgroundColor" format="color" />
+    <attr name="playCardCornerRadius" format="dimension" />
+    <attr name="playCardElevation" format="dimension" />
+    <attr name="playCardInset" format="dimension" />
+    <attr name="playCardClipToOutline" format="boolean" />
+    <attr name="uicDelegateToSupportLibAlertDialog" format="boolean" />
+    <attr name="windowNoTitle" format="boolean" />
+    <attr name="lastLineOverdrawColor" format="color" />
+</resources>

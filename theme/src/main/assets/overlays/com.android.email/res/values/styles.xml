@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme" />
+    <style name="Widget.AppCompat.Light.ListView.DropDown" parent="@style/Widget.AppCompat.ListView.DropDown" />
+    <style name="ConversationListFadeBase" parent="@*android:style/Widget.Holo.ListView" />
+    <style name="Widget.AppCompat.ListView.DropDown" parent="@style/Base.Widget.AppCompat.ListView.DropDown" />
+    <style name="MinTimeProgressViewStyle" parent="@*android:style/Widget.Holo.ProgressBar" />
+    <style name="MinTimeProgressDialogStyleBase" parent="@*android:style/Theme.Holo.Dialog" />
+    <style name="ActionBarDividerlessListViewStyle" parent="@*android:style/Widget.Holo.ListView">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView" parent="@*android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown" parent="@style/Base.Widget.AppCompat.ListView">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@*common:color/dom_orange_700</item>
+    </style>
+    <style name="ActionBarTextAppearanceLargeStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarTextAppearanceSmallStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarOverflowButtonStyle" parent="@*android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+    <style name="AbstractComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+    <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.ListView</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:actionModeBackground">@*android:color/background_dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp_with_rtl</item>
+        <item name="android:actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
+    </style>
+    <style name="UnifiedEmailTheme.Appcompat" parent="@style/Platform.AppCompat.Light">
+        <item name="actionModeBackground">@*android:color/background_dark</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp_with_rtl</item>
+        <item name="colorPrimary">@*common:color/dom_orange_700</item>
+        <item name="colorPrimaryDark">@*common:color/dom_orange_900</item>
+        <item name="colorAccent">@*common:color/dom_blue_700</item>
+    </style>
+    <style name="ActionBarWidgetTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:dropDownListViewStyle">@style/ActionBarDividerlessListViewStyle</item>
+        <item name="android:popupMenuStyle">@*android:style/Widget.Holo.ListPopupWindow</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/ActionBarTextAppearanceLargeStyle</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/ActionBarTextAppearanceSmallStyle</item>
+    </style>
+    <style name="AccountSetupDialogActivityTheme" parent="@*android:style/Theme.Holo.Dialog.NoActionBar" />
+    <style name="ComposeTheme" parent="@style/UnifiedEmailTheme.Appcompat">
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:dropDownListViewStyle">@style/ComposeDropdownListViewStyle</item>
+        <item name="android:colorBackgroundCacheHint">@*android:color/background_dark</item>
+    </style>
+    <style name="ComposeDropdownListViewStyle" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32.0dip</item>
+        <item name="android:popupBackground">@*android:color/background_dark</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+    </style>
+
+</resources>

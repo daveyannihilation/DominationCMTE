@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DeskClockParentTheme" parent="@android:style/Theme.Material">
+        <item name="android:buttonStyle">?android:borderlessButtonStyle</item>
+        <item name="android:popupMenuStyle">?android:actionOverflowMenuStyle</item>
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="android:colorControlActivated">@color/hot_blue</item>
+        <item name="android:colorPrimary">@color/hot_blue</item>
+        <item name="android:colorPrimaryDark">@color/hot_blue_dark</item>
+        <item name="android:colorAccent">@color/hot_pink</item>
+	<item name="android:windowBackground">@color/default_background</item>
+    </style>
+    <style name="TimePickerTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@color/hot_blue</item>
+        <item name="android:timePickerStyle">@style/TimePickerStyle</item>
+    </style>
+    <style name="TimePickerStyle" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:headerTimeTextAppearance">@style/TimeLabelTextAppearance</item>
+        <item name="android:headerAmPmTextAppearance">@style/AmPmTextAppearance</item>
+    </style>
+    <style name="TimerAlertFullScreenTheme" parent="@android:style/Theme.Material.Wallpaper.NoTitleBar">
+        <item name="android:statusBarColor">@color/status_bar</item>
+    </style>
+    <style name="ScreensaverActivityTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+    <style name="CitiesTheme" parent="@android:style/Theme.Material">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/text_color_light</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dialogTheme">@style/DialogTheme</item>
+        <item name="android:alertDialogTheme">@style/DialogTheme</item>
+        <item name="android:colorPrimary">@color/hot_blue</item>
+        <item name="android:colorPrimaryDark">@color/hot_blue_dark</item>
+        <item name="android:colorAccent">@color/hot_pink</item>
+        <item name="android:actionBarPopupTheme">@style/PopupMenu</item>
+    </style>
+    <style name="SettingsTheme" parent="@android:style/Theme.Material.Settings">
+        <item name="android:dialogTheme">@style/DialogTheme</item>
+        <item name="android:alertDialogTheme">@style/DialogTheme</item>
+        <item name="android:colorPrimary">@color/hot_blue</item>
+        <item name="android:colorPrimaryDark">@color/hot_blue_dark</item>
+        <item name="android:colorAccent">@color/hot_pink</item>
+    </style>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlayDrawerBaseText" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#ff111111</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">32.0dip</item>
+    </style>
+    <style name="PlayMediumPlainText" parent="@style/PlayPlainText" />
+    <style name="PlayPlainText" />
+    <style name="PlayDrawerList">
+        <item name="android:background">#ff111111</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:cacheColorHint">@*android:color/transparent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:choiceMode">none</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="PlayHeaderListTabScrollview">
+        <item name="android:background">@*common:color/dom_orange_700</item>
+    </style>
+    <style name="PlayDrawerProfileEmailText" parent="@style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ToolbarBackground">
+        <item name="android:background">#ff111111</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText" parent="">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary" parent="@style/Widget.MediaRouter.ChooserText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@style/Widget.MediaRouter.ChooserText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary" parent="@style/Widget.MediaRouter.ChooserText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary.Light" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText" parent="@style/Widget.MediaRouter.ChooserText" />
+    <style name="Widget.MediaRouter.ControllerText.Primary" parent="@style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Primary.Dark" parent="@style/Widget.MediaRouter.ControllerText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Primary.Light" parent="@style/Widget.MediaRouter.ControllerText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary" parent="@style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary.Dark" parent="@style/Widget.MediaRouter.ControllerText.Secondary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary.Light" parent="@style/Widget.MediaRouter.ControllerText.Secondary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title" parent="@style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title.Dark" parent="@style/Widget.MediaRouter.ControllerText.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title.Light" parent="@style/Widget.MediaRouter.ControllerText.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="EpisodeDetailsTitleText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PlayGridBoldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="PlayMediumBoldText" parent="@style/PlayGridBoldText" />
+    <style name="InfoCardButton" parent="@style/PlayMediumBoldText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="SoundSearchButton" parent="@style/PlayMediumBoldText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ReadMoreButton.TextAppearance" parent="@style/PlayCardAction">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PlayCardAction" parent="@style/PlayMediumPlainText" />
+    <style name="PlayDrawerSelectedText" parent="@style/PlayDrawerBaseText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@*common:color/selected</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">32.0dip</item>
+    </style>
+    <style name="PlayDrawerProfileNameText" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PlaySearchPlate">
+        <item name="android:background">#ff000000</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+    </style>
+    <style name="PlaySearchPlate.SearchTextBase" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:paddingTop">11.0dip</item>
+        <item name="android:paddingBottom">11.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">"Search Google Play Music"</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu">
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+    <style name="Widget.AppCompat.Light.PopupMenu" parent="@style/Base.Widget.AppCompat.Light.PopupMenu">
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material">
+        <item name="isLightTheme">false</item>
+    </style>
+    <style name="PlaySearchSuggestionText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PlaySearchSuggestionText.Query" parent="@style/PlaySearchSuggestionText">
+        <item name="android:textColor">#ff222222</item>
+    </style>
+    <style name="PlaySearchSuggestionText.Suggested" parent="@style/PlaySearchSuggestionText">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="PlayCardViewGroup">
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:backgroundTint">#ff111111</item>
+        <item name="playCardBackgroundColor">#ff111111</item>
+        <item name="playCardCornerRadius">2.0dip</item>
+        <item name="playCardElevation">2.0dip</item>
+        <item name="playCardInset">4.0dip</item>
+        <item name="playCardClipToOutline">true</item>
+    </style>
+</resources>

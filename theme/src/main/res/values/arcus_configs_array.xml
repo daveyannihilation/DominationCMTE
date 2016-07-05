@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Zip IDs: Enlist the names of your zip files without ".zip", these are your [config_name]s-->
+    <!--Note: Arcus will display your configs in the same order as this array-->
+
+    <string-array name="config_zips_list">  <!--DO NOT MODIFY THIS LINE!!! The array name is the identifier for Arcus to register the configs-->
+        <item>framework_blue</item>
+        <item>framework_bluegrey</item>
+        <item>framework_green</item>
+        <item>framework_lightblue</item>
+        <item>framework_lime</item>
+        <item>framework_orange</item>
+        <item>framework_red</item>
+        <item>framework_teal</item>
+        <item>framework_white</item>
+        <item>framework_yellow</item>
+        <item>settings_nocards</item>
+    </string-array>
+
+</resources>

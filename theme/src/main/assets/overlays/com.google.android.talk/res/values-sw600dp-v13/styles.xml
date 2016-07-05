@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Hangouts.Snackbar" parent="@style/Snackbar">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">568.0dip</item>
+        <item name="android:minWidth">288.0dip</item>
+    </style>
+    <style name="Hangouts.Fauxbar" parent="@style/Hangouts.Snackbar">
+        <item name="android:background">#ff111111</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">56.0dip</item>
+        <item name="messageTextColor">#ffffffff</item>
+        <item name="actionTextColor">#ff1b5e20</item>
+    </style>
+</resources>

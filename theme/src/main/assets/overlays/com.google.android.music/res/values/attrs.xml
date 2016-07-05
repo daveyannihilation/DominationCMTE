@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="actionBarPopupTheme" format="reference" />
+    <attr name="actionBarDivider" format="reference" />
+    <attr name="actionButtonStyle" format="reference" />
+    <attr name="actionOverflowButtonStyle" format="reference" />
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="drawerArrowStyle" format="reference" />
+    <attr name="dropDownListViewStyle" format="reference" />
+    <attr name="selectableItemBackground" format="reference" />
+    <attr name="toolbarStyle" format="reference" />
+    <attr name="windowActionBar" format="boolean" />
+    <attr name="windowActionBarOverlay" format="boolean" />
+    <attr name="isLightTheme" format="boolean" />
+    <attr name="textAllCaps" format="reference|boolean" />
+    <attr name="color" format="color" />
+    <attr name="middleBarArrowSize" format="dimension" />
+    <attr name="spinBars" format="boolean" />
+    <attr name="thickness" format="dimension" />
+    <attr name="topBottomBarArrowSize" format="dimension" />
+    <attr name="barSize" format="dimension" />
+    <attr name="drawableSize" format="dimension" />
+    <attr name="gapBetweenBars" format="dimension" />
+    <attr name="actionMenuTextColor" format="reference|color" />
+    <attr name="colorControlNormal" format="color" />
+    <attr name="editTextColor" format="reference|color" />
+    <attr name="defaultBrandColor" format="reference|color" />
+    <attr name="playCardBackgroundColor" format="color" />
+    <attr name="playCardCornerRadius" format="dimension" />
+    <attr name="playCardElevation" format="dimension" />
+    <attr name="playCardInset" format="dimension" />
+    <attr name="playCardClipToOutline" format="boolean" />
+</resources>

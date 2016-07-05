@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">@*common:color/dom_blue_700</color>
+    <color name="dialtacts_secondary_text_color">#ffdddddd</color>
+    <color name="dialer_settings_actionbar_background_color">@*common:color/dom_blue_700</color>
+    <color name="dialer_settings_color_dark">@*common:color/dom_blue_900</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="albumset_background">#ff000000</color>
+    <color name="albumset_placeholder">#ff111111</color>
+    <color name="albumset_label_background">#ee111111</color>
+    <color name="albumset_label_title">#ffffffff</color>
+    <color name="albumset_label_count">#ffdddddd</color>
+    <color name="album_background">#ff000000</color>
+    <color name="album_placeholder">#ff111111</color>
+    <color name="photo_background">#ff000000</color>
+    <color name="photo_placeholder">#ff111111</color>
+    <color name="cache_background">#ff000000</color>
+    <color name="cache_placeholder">#ff111111</color>
+    <color name="bitmap_screennail_placeholder">#ff111111</color>
+    <color name="slideshow_background">#ff000000</color>
+    <color name="button_dark_transparent_background">#ff111111</color>
+    <color name="ingest_highlight_semitransparent">#88555555</color>
+    <color name="ingest_date_tile_text">#ffdddddd</color>
+    <color name="fab">@*common:color/dom_red_700</color>
+    <color name="floating_action_button_touch_tint">#fff44336</color>
+    <color name="floating_action_button_icon_color">#ffffffff</color>
+</resources>

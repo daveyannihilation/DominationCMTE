@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@style/Base.TextAppearance.AppCompat.Large">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@style/Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@style/Base.TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffbbbbbb</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Platform.AppCompat" parent="@*android:style/Theme.Material" />
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+    <style name="Base.TextAppearance.AppCompat" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHighlight">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">34.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">56.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">112.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Material" />
+    <style name="AppTheme" parent="@*android:style/Theme.Material" />
+    <style name="AppTheme.NoTitleBar" parent="@*android:style/Theme.NoTitleBar" />
+
+    <style name="Base.V7.Widget.AppCompat.EditText" parent="@*android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffbbbbbb</item>
+    </style>
+
+</resources>

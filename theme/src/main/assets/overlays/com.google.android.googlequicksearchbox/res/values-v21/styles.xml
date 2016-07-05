@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="reminders_activity" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimaryDark">#ff0d47a1</item>
+    </style>
+    <style name="Theme.Settings" parent="@style/Theme.Gsa.ActionBar">
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:colorPrimary">@*common:color/dom_blue_700</item>
+        <item name="android:colorPrimaryDark">@*common:color/dom_blue_900</item>
+        <item name="android:colorAccent">@*common:color/dom_blue_700</item>
+        <item name="android:statusBarColor">@*common:color/dom_blue_900</item>
+        <item name="android:navigationBarColor">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Theme.Gsa.ActionBar" parent="@style/Theme.Gsa">
+        <item name="android:actionMenuTextColor">#ffffffff</item>
+        <item name="android:colorPrimary">#ff1976d2</item>
+        <item name="android:colorPrimaryDark">#ff0d47a1</item>
+    </style>
+    <style name="Theme.Gsa" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColorHighlight">#66ffffff</item>
+        <item name="android:colorBackgroundCacheHint">#95000000</item>
+        <item name="android:textColorHighlightInverse">#66ffffff</item>
+        <item name="android:colorControlActivated">#ffffffff</item>
+        <item name="android:colorPrimary">#ff1976d2</item>
+        <item name="android:colorPrimaryDark">#ff0d47a1</item>
+        <item name="android:colorAccent">#ff1976d2</item>
+        <item name="qpActionIconAlpha">0.38</item>
+        <item name="qpActionIconTint">#ffffffff</item>
+        <item name="qpH1TextSize">24.0sp</item>
+        <item name="qpH1FontFamily">sans-serif-light</item>
+        <item name="vogPromptColor">#ffffffff</item>
+    </style>
+    <style name="Theme_Holo_Light_Dialog_Alert" parent="@*android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+    </style>
+    <style name="Widget.Shim.Light.ActionBar" parent="@*android:style/Widget.Material.ActionBar" />
+    <style name="Theme.Shim.Light" parent="@*android:style/Theme.Material" />
+    <style name="Theme.Shim.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />
+    <style name="Theme.Shim.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="ThemeOverlay.Shim.ActionBar" parent="@*android:style/ThemeOverlay.Material.ActionBar" />
+    <style name="GsaToolBar" parent="@*android:style/Widget.Material.Toolbar">
+        <item name="android:background">#ff1976d2</item>
+    </style>
+    <style name="TextAppearance.Shim.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Shim.Widget.ActionBar.Subtitle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Theme.Gsa.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">#ff1976d2</item>
+    </style>
+
+
+</resources>

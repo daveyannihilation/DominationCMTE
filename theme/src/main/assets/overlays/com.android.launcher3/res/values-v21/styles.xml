@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Light.CustomOverscroll" parent="@android:style/Theme.Material">
+        <item name="android:colorEdgeEffect">#ffdddddd</item>
+    </style>
+    <style name="Theme.Dark.CustomOverscroll" parent="@android:style/Theme.Material">
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+    </style>
+    <style name="Settings" parent="@android:style/Theme.Material">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimary">@*common:color/dom_indigo_700</item>
+        <item name="android:colorPrimaryDark">@*common:color/dom_indigo_900</item>
+        <item name="android:colorAccent">@*common:color/dom_blue_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>

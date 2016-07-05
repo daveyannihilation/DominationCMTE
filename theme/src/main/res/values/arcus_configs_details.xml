@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--CONFIG NAME: Actual config name to be displayed in arcus-->
+    <!--String name format: [config_name]_name-->
+    <string name="prozt_pink_name">Pink Blend</string>
+
+    <!--Follow above format for other configs as well-->
+    <!--NOTE: You can place each configs details in separate files. eg. Here, I've moved prozt_red config's details in a separate file 'prozt_red.xml'-->
+    <string name="framework_blue_name">Framework Blue</string>
+    <string name="framework_bluegrey_name">Framework BlueGrey</string>
+    <string name="framework_green_name">Framework Green</string>
+    <string name="framework_lightblue_name">Framework LightBlue</string>
+    <string name="framework_lime_name">Framework Lime</string>
+    <string name="framework_orange_name">Framework Orange</string>
+    <string name="framework_red_name">Framework Red</string>
+    <string name="framework_teal_name">Framework Teal</string>
+    <string name="framework_white_name">Framework White</string>
+    <string name="framework_yellow_name">Framework Yellow</string>
+    <string name="settings_nocards_name">Settings NoCards</string>
+</resources>

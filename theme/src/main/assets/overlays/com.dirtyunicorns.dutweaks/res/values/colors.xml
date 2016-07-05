@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#1a555555</color>
+    <color name="material_deep_teal_500">@*common:color/accent_material_dark</color>
+    <color name="icon_tint_color">@*common:color/accent_material_dark</color>
+    <color name="theme_accent">@*common:color/accent_material_dark</color>
+
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg_activated">@*common:color/selected</drawable>
+    <drawable name="expanded_item_bg">@android:color/background_dark</drawable>
+    <color name="expanded_button_color_normal">@*common:color/dom_green_700</color>
+    <color name="expanded_button_color_close">@*common:color/dom_red_700</color>
+    <color name="text_color_black">#ffffffff</color>
+
+    <!-- Gesture Anywhere -->
+    <color name="ga_gesture_color">@*common:color/accent_material_dark</color>
+
+    <!-- DSLV colors -->
+    <color name="dslv_icon_dark">@*common:color/accent_material_dark</color>
+    <color name="dslv_float_cackground_color">#ff111111</color>
+</resources>

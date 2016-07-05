@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32.0dip</item>
+        <item name="android:popupBackground">@*android:color/background_dark</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText" parent="@*android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:background">#ff111111</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="bt_AclFixerDetailsDialog" parent="@style/Platform.AppCompat.Light">
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+    </style>
+    <style name="bt_BigTopAppPreferencesTheme" parent="@*android:style/Theme.Holo" />
+
+    <style name="bt_SignInActivity_RootView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="bt_DialogTextView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+        <item name="android:editTextColor">#ffbbbbbb</item>
+    </style>
+    <style name="bt_StartupActionBar" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#ff1976d2</item>
+        <item name="android:height">56.0dip</item>
+        <item name="android:displayOptions">@null</item>
+    </style>
+    <style name="bt_DialogEditTextView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+        <item name="android:editTextColor">#ffbbbbbb</item>
+    </style>
+    <style name="bt_SnoozeDialogSpinner" parent="@*android:style/Widget.Holo.Spinner">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">24.0dip</item>
+        <item name="android:layout_marginRight">24.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="bt_EditTextView" parent="@*android:style/Widget.EditText">
+        <item name="android:editTextColor">#ff787878</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="letter_tile_colors">
+        <item>@*common:color/dom_green_700</item>
+        <item>@*common:color/dom_bluegrey_700</item>
+        <item>@*common:color/dom_purple_700</item>
+        <item>@*common:color/dom_red_700</item>
+        <item>#ff689f38</item>
+        <item>@*common:color/dom_blue_700</item>
+        <item>@*common:color/dom_orange_700</item>
+        <item>#fff57c00</item>
+    </array>
+</resources>

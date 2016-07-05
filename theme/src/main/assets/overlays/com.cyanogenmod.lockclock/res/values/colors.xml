@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_selector_focused">#cc555555</color>
+    <color name="list_selector_activated">#4d555555</color>
+
+    <!-- Material design app colors -->
+    <color name="colorPrimary">@*common:color/dom_blue_700</color>
+    <color name="colorPrimaryDark">@*common:color/dom_blue_900</color>
+    <color name="colorAccent">@*common:color/dom_blue_700</color>
+</resources>

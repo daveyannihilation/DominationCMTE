@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_teal_50">@*common:color/dom_teal_700</color>
+    <color name="material_teal_100">@*common:color/dom_teal_700</color>
+    <color name="material_teal_200">@*common:color/dom_teal_700</color>
+    <color name="material_teal_300">@*common:color/dom_teal_700</color>
+    <color name="material_teal_400">@*common:color/dom_teal_700</color>
+    <color name="material_teal_500">@*common:color/dom_teal_700</color>
+    <color name="material_teal_600">@*common:color/dom_teal_700</color>
+    <color name="material_teal_700">@*common:color/dom_teal_900</color>
+    <color name="material_teal_800">@*common:color/dom_teal_900</color>
+    <color name="material_teal_900">@*common:color/dom_teal_900</color>
+    <color name="material_teal_950">@*common:color/dom_teal_900</color>
+    <color name="material_white">#ff000000</color>
+</resources>
