@@ -8,8 +8,8 @@ android {
         applicationId "com.annihilation.domcmte"
         minSdkVersion 21
         maxSdkVersion 23
-        versionCode 8
-        versionName "1.3"
+        versionCode 9
+        versionName "1.4"
     }
     buildTypes {
         release {

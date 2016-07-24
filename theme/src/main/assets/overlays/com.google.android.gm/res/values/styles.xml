@@ -6,7 +6,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">32.0dip</item>
-        <item name="android:popupBackground">#ff000000</item>
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
         <item name="android:inputType">textEmailAddress|textMultiLine</item>
     </style>
     <style name="ChipTitleStyle">
@@ -18,7 +18,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="ChipSubtitleStyle">
         <item name="android:textSize">14.0sp</item>
@@ -29,30 +29,30 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" parent="@*android:style/TextAppearance.Small">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@*android:style/TextAppearance.Medium">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">#ffffffff</item>
         <item name="android:textColorHint">#ffbbbbbb</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@style/Base.TextAppearance.AppCompat.SearchResult">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ffdddddd</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="Base.TextAppearance.AppCompat" parent="@*android:style/TextAppearance">
         <item name="android:textSize">14.0sp</item>
@@ -148,7 +148,7 @@
     </style>
     <style name="AbstractComposeArea">
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:animateLayoutChanges">true</item>
@@ -189,9 +189,9 @@
     </style>
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Material">
         <item name="android:listViewWhiteStyle">@*android:style/Widget.Material.ListView</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="Promo" />
     <style name="Promo.Text" parent="@style/Promo">

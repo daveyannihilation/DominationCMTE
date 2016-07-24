@@ -2,7 +2,7 @@
 <resources>
     <color name="primary">@*common:color/dom_green_700</color>
     <color name="primary_dark">@*common:color/dom_green_900</color>
-    <color name="primary_light">@*common:color/dom_green_700</color>
-    <color name="accent">@*common:color/dom_green_700</color>
+    <color name="primary_light">@*common:color/dom_green_900</color>
+    <color name="accent">#ff4caf50</color>
     <color name="list_file_text_color">#ffffffff</color>
 </resources>

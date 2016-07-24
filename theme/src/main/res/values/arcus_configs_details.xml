@@ -7,15 +7,17 @@
 
     <!--Follow above format for other configs as well-->
     <!--NOTE: You can place each configs details in separate files. eg. Here, I've moved prozt_red config's details in a separate file 'prozt_red.xml'-->
-    <string name="framework_blue_name">Framework Blue</string>
-    <string name="framework_bluegrey_name">Framework BlueGrey</string>
-    <string name="framework_green_name">Framework Green</string>
-    <string name="framework_lightblue_name">Framework LightBlue</string>
-    <string name="framework_lime_name">Framework Lime</string>
-    <string name="framework_orange_name">Framework Orange</string>
-    <string name="framework_red_name">Framework Red</string>
-    <string name="framework_teal_name">Framework Teal</string>
-    <string name="framework_white_name">Framework White</string>
-    <string name="framework_yellow_name">Framework Yellow</string>
+    <string name="accent_blue_name">Accent Blue</string>
+    <string name="accent_bluegrey_name">Accent BlueGrey</string>
+    <string name="accent_green_name">Accent Green</string>
+    <string name="accent_lightblue_name">Accent LightBlue</string>
+    <string name="accent_lime_name">Accent Lime</string>
+    <string name="accent_orange_name">Accent Orange</string>
+    <string name="accent_red_name">Accent Red</string>
+    <string name="accent_teal_name">Accent Teal</string>
+    <string name="accent_white_name">Accent White</string>
+    <string name="accent_yellow_name">Accent Yellow</string>
+    <string name="background_allblack_name">Background AllBlack</string>
+    <string name="background_darkgrey_name">Background DarkGrey</string>
     <string name="settings_nocards_name">Settings NoCards</string>
 </resources>

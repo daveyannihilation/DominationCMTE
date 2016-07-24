@@ -13,7 +13,7 @@
         <item name="gap">2.0dip</item>
     </style>
     <style name="PlaySearchPlate">
-        <item name="android:background">#ff222222</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:paddingLeft">0.0dip</item>
         <item name="android:paddingRight">0.0dip</item>
     </style>
@@ -53,7 +53,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-    <style name="SettingsTheme" parent="@android:style/Theme.Material" />
+    <style name="SettingsTheme" parent="@*android:style/Theme.Material" />
     <style name="Theme.Base.InstrumentManager.Light" parent="@android:style/Theme.NoTitleBar" />
     <style name="Play_DetailsPage_ActionButton" parent="@style/PlayMediumPlainText">
        <item name="android:textSize">14.0sp</item>

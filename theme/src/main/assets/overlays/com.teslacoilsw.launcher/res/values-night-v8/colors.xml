@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="backup_adapter_section_text_color">#ffdddddd</color>
-    <color name="cardIdleBackground">#ff000000</color>
+    <color name="cardIdleBackground">@*android:color/background_floating_material_dark</color>
     <color name="prime_text_color">#ff303f9f</color>
 </resources>

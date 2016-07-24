@@ -104,19 +104,19 @@
         <item name="android:textColor">#ffdddddd</item>
     </style>
     <style name="SearchPlate">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="SearchPlate.SearchBox" parent="@*android:style/Widget.EditText">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="AccountsSwitcher" />
     <style name="AccountsSwitcher.OwnersListItemStyle" parent="@style/AccountsSwitcher">
         <item name="android:paddingLeft">10.0dip</item>
         <item name="android:paddingRight">10.0dip</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
     </style>
     <style name="AccountsSwitcher.ManageAccountsStyle" parent="@style/AccountsSwitcher.OwnersListItemStyle">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
     </style>
     <style name="AccountsSwitcher.ManageAccountsFrameStyle" parent="@style/AccountsSwitcher">
         <item name="android:layout_width">40.0dip</item>
@@ -130,12 +130,12 @@
     <style name="AccountsSwitcher.ManageAccountsTextStyle" parent="@style/AccountsSwitcher">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:layout_marginLeft">16.0dip</item>
-        <item name="android:backgroundTint">#ff000000</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
     </style>
     <style name="AccountsSwitcher.AccountTextStyle" parent="@style/AccountsSwitcher">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:layout_marginLeft">16.0dip</item>
-        <item name="android:backgroundTint">#ff000000</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
     </style>
     <style name="TravelModeSpinner" parent="@*android:style/Widget.Holo.Spinner">
         <item name="android:layout_width">fill_parent</item>

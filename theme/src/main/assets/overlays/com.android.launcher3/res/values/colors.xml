@@ -6,8 +6,8 @@
     <color name="focused_background">#80555555</color>
     <color name="folder_edge_effect_color">#ffdddddd</color>
     <color name="quantum_panel_text_color">#ffffffff</color>
-    <color name="quantum_panel_bg_color">#ff000000</color>
-    <color name="quantum_panel_bg_color_dark">#ff000000</color>
+    <color name="quantum_panel_bg_color">@*android:color/background_dark</color>
+    <color name="quantum_panel_bg_color_dark">@*android:color/background_dark</color>
     <color name="outline_color">#ffffffff</color>
     <color name="container_fastscroll_thumb_inactive_color">@*common:color/dom_teal_700</color>
     <color name="container_fastscroll_thumb_active_color">@*common:color/dom_teal_700</color>
@@ -15,7 +15,7 @@
     <color name="all_apps_search_market_button_focused_bg_color">@*common:color/selected</color>
     <color name="widgets_view_section_text_color">#ffffffff</color>
     <color name="widgets_view_item_text_color">#ffbbbbbb</color>
-    <color name="widgets_cell_color">#ff111111</color>
+    <color name="widgets_cell_color">@*android:color/background_floating_material_dark</color>
     <color name="accent">@*common:color/dom_blue_700</color>
     <color name="primary_color">@*common:color/dom_indigo_700</color>
     <color name="primary_dark_color">@*common:color/dom_indigo_900</color>

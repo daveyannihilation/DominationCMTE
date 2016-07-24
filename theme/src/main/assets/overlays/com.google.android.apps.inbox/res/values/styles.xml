@@ -13,7 +13,7 @@
     <style name="Base.V7.Widget.AppCompat.EditText" parent="@*android:style/Widget.EditText">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:textColor">#ffbbbbbb</item>
-        <item name="android:background">#ff111111</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
     </style>
 
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">

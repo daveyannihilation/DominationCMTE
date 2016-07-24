@@ -105,7 +105,7 @@
     </style>
     <style name="ContextualSearchTextViewLayout">
         <item name="android:layout_gravity">bottom</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingLeft">53.0dip</item>
         <item name="android:paddingRight">53.0dip</item>
         <item name="android:visibility">invisible</item>
@@ -147,7 +147,7 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:ellipsize">end</item>
         <item name="android:layout_gravity">bottom</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_marginLeft">7.0dip</item>

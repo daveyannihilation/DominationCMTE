@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@android:color/background_dark" />
     <item android:bottom="16.0dip">
-        <bitmap android:gravity="center" android:src="@drawable/quantum_logo_play_music_color_144" />
+        <bitmap android:gravity="center" android:src="@drawable/splash_play_music_144" />
     </item>
     <item android:bottom="48.0dip">
         <bitmap android:gravity="bottom|center" android:src="@drawable/ic_googleplay" />

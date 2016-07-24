@@ -5,7 +5,7 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:ellipsize">marquee</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:background">#ff111111</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:paddingRight">16.0dip</item>
         <item name="android:layout_width">fill_parent</item>
@@ -17,7 +17,7 @@
     <style name="PlayMediumPlainText" parent="@style/PlayPlainText" />
     <style name="PlayPlainText" />
     <style name="PlayDrawerList">
-        <item name="android:background">#ff111111</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:fadingEdgeLength">0.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">0.0dip</item>
@@ -27,14 +27,20 @@
         <item name="android:layout_weight">1.0</item>
     </style>
     <style name="PlayHeaderListTabScrollview">
-        <item name="android:background">@*common:color/dom_orange_700</item>
+        <item name="android:background">#ffe64a19</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="PlayDrawerProfileEmailText" parent="@style/PlayPlainText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="ToolbarBackground">
-        <item name="android:background">#ff111111</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="Widget.MediaRouter.ChooserText" parent="">
         <item name="android:textStyle">normal</item>
@@ -130,7 +136,7 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="PlaySearchPlate">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:paddingLeft">0.0dip</item>
         <item name="android:paddingRight">0.0dip</item>
     </style>
@@ -141,7 +147,7 @@
         <item name="android:textColorHint">#ffbbbbbb</item>
         <item name="android:ellipsize">end</item>
         <item name="android:layout_gravity">start|center</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingTop">11.0dip</item>
         <item name="android:paddingBottom">11.0dip</item>
         <item name="android:layout_width">fill_parent</item>
@@ -149,17 +155,17 @@
         <item name="android:hint">"Search Google Play Music"</item>
         <item name="android:singleLine">true</item>
     </style>
-    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu">
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu">
         <item name="android:background">@*android:color/background_dark</item>
     </style>
     <style name="Widget.AppCompat.Light.PopupMenu" parent="@style/Base.Widget.AppCompat.Light.PopupMenu">
         <item name="android:background">@*android:color/background_dark</item>
     </style>
-    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material">
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@*android:style/ThemeOverlay.Material">
         <item name="isLightTheme">false</item>
     </style>
     <style name="PlaySearchSuggestionText">
@@ -180,8 +186,8 @@
         <item name="android:paddingTop">4.0dip</item>
         <item name="android:paddingRight">4.0dip</item>
         <item name="android:paddingBottom">4.0dip</item>
-        <item name="android:backgroundTint">#ff111111</item>
-        <item name="playCardBackgroundColor">#ff111111</item>
+        <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
+        <item name="playCardBackgroundColor">@*android:color/background_floating_material_dark</item>
         <item name="playCardCornerRadius">2.0dip</item>
         <item name="playCardElevation">2.0dip</item>
         <item name="playCardInset">4.0dip</item>

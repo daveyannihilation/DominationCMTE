@@ -36,7 +36,7 @@
     <style name="FirstRunPageFooter">
         <item name="android:layout_gravity">bottom</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">48.0dip</item>
     </style>
@@ -65,7 +65,7 @@
         <item name="android:layout_marginTop">8.0dip</item>
     </style>
     <style name="FirstRunViewPager">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingBottom">48.0dip</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
@@ -117,7 +117,7 @@
         <item name="android:paddingTop">1.0dip</item>
     </style>
     <style name="PrivacyNotice">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingTop">24.0dip</item>
         <item name="android:paddingBottom">10.0dip</item>
         <item name="android:clickable">true</item>
@@ -222,8 +222,8 @@
     </style>
 
 
-    <style name="platformActivityTheme" parent="@android:style/Theme.Material" />
-    <style name="platformSettingsTheme" parent="@android:style/Theme.Material" />
-    <style name="platformDialogTheme" parent="@android:style/Theme.Material.Dialog" />
+    <style name="platformActivityTheme" parent="@*android:style/Theme.Material" />
+    <style name="platformSettingsTheme" parent="@*android:style/Theme.Material" />
+    <style name="platformDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
 
 </resources>

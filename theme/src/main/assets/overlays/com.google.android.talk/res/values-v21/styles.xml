@@ -82,7 +82,7 @@
     </style> 
 
     <style name="matchstick.baseDialog" parent="@*android:style/Theme.Material.Dialog.Alert"> 
-        <item name="android:colorBackground">@*android:color/background_dark</item> 
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item> 
         <item name="android:topDark">@*android:color/background_dark</item> 
         <item name="android:centerDark">@*android:color/background_dark</item> 
         <item name="android:bottomDark">@*android:color/background_dark</item> 
@@ -90,7 +90,7 @@
         <item name="android:centerBright">@*android:color/background_dark</item> 
         <item name="android:bottomBright">@*android:color/background_dark</item> 
         <item name="android:colorPrimary">@*android:color/background_dark</item> 
-        <item name="android:colorAccent">@*android:color/background_dark</item>
+        <item name="android:colorAccent">@*common:color/accent_material_dark</item>
     </style>
     <style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
 </resources>

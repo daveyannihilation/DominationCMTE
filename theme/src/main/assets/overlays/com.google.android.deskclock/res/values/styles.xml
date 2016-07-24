@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="DeskClockParentTheme" parent="@android:style/Theme.Material">
+    <style name="DeskClockParentTheme" parent="@*android:style/Theme.Material">
         <item name="android:buttonStyle">?android:borderlessButtonStyle</item>
         <item name="android:popupMenuStyle">?android:actionOverflowMenuStyle</item>
         <item name="android:colorControlNormal">#ffffffff</item>
@@ -19,26 +19,26 @@
         <item name="android:colorPrimaryDark">@*common:color/dom_purple_900</item>
         <item name="android:colorAccent">@*common:color/dom_purple_700</item>
     </style>
-    <style name="FastScrollStyle" parent="@android:style/Widget.Material.FastScroll">
+    <style name="FastScrollStyle" parent="@*android:style/Widget.Material.FastScroll">
         <item name="android:textSize">32.0sp</item>
         <item name="android:textColor">#ffffffff</item>
         <item name="android:padding">16.0dip</item>
         <item name="android:minWidth">48.0dip</item>
         <item name="android:minHeight">48.0dip</item>
     </style>
-    <style name="CitiesTheme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+    <style name="CitiesTheme.ActionBar" parent="@*android:style/Widget.Material.ActionBar">
         <item name="android:displayOptions">useLogo</item>
     </style>
-    <style name="SettingsTheme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+    <style name="SettingsTheme.ActionBar" parent="@*android:style/Widget.Material.ActionBar">
         <item name="android:displayOptions">showTitle|useLogo</item>
         <item name="android:background">@*common:color/dom_purple_700</item>
         <item name="android:colorBackground">@*common:color/dom_purple_700</item>
         <item name="android:titleTextStyle">@style/SettingsTheme.TextAppearance.ActionBar.Title</item>
     </style>
-    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
         <item name="android:textSize">18.0sp</item>
     </style>
-    <style name="ScreensaverSettingsActivityTheme" parent="@android:style/Theme.Material" />
+    <style name="ScreensaverSettingsActivityTheme" parent="@*android:style/Theme.Material" />
     <style name="TextAppearance">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -57,15 +57,13 @@
     <style name="Platform.AppCompat" parent="@android:style/Theme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:background">#ff000000</item>
         <item name="android:colorPrimary">@*common:color/dom_purple_700</item>
         <item name="android:colorPrimaryDark">@*common:color/dom_purple_900</item>
         <item name="android:colorAccent">@*common:color/dom_purple_700</item>
     </style>
-    <style name="Platform.AppCompat.Light" parent="@android:style/Theme">
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme">        
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:background">#ff000000</item>
         <item name="android:colorPrimary">@*common:color/dom_purple_700</item>
         <item name="android:colorPrimaryDark">@*common:color/dom_purple_900</item>
         <item name="android:colorAccent">@*common:color/dom_purple_700</item>

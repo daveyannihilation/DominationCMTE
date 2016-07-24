@@ -22,7 +22,7 @@
         <item name="android:textColorTertiaryInverse">#ffffffff</item>
         <item name="android:editTextColor">#ffffffff</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
     </style>
     <style name="NotificationPrimaryText">
         <item name="android:textColor">#ffffffff</item>
@@ -32,9 +32,13 @@
     </style>
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Material">
         <item name="android:listViewWhiteStyle">@*android:style/Widget.Material.ListView</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@style/GmailTheme.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/background_dark</item>
     </style>
     <style name="LabelSyncTheme" parent="@*android:style/Theme.Material.Dialog" />
     <style name="GmailTheme.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">

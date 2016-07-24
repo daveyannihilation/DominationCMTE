@@ -5,16 +5,18 @@
     <!--Note: Arcus will display your configs in the same order as this array-->
 
     <string-array name="config_zips_list">  <!--DO NOT MODIFY THIS LINE!!! The array name is the identifier for Arcus to register the configs-->
-        <item>framework_blue</item>
-        <item>framework_bluegrey</item>
-        <item>framework_green</item>
-        <item>framework_lightblue</item>
-        <item>framework_lime</item>
-        <item>framework_orange</item>
-        <item>framework_red</item>
-        <item>framework_teal</item>
-        <item>framework_white</item>
-        <item>framework_yellow</item>
+        <item>accent_blue</item>
+        <item>accent_bluegrey</item>
+        <item>accent_green</item>
+        <item>accent_lightblue</item>
+        <item>accent_lime</item>
+        <item>accent_orange</item>
+        <item>accent_red</item>
+        <item>accent_teal</item>
+        <item>accent_white</item>
+        <item>accent_yellow</item>
+        <item>background_allblack</item>
+        <item>background_darkgrey</item>
         <item>settings_nocards</item>
     </string-array>
 

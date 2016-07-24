@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Settings" parent="@android:style/Theme.Material.DialogWhenLarge">
+    <style name="Theme.Settings" parent="@*android:style/Theme.Material.DialogWhenLarge">
         <item name="android:colorPrimary">@*common:color/dom_blue_700</item>
         <item name="android:colorPrimaryDark">@*common:color/dom_blue_900</item>
     </style>
-    <style name="SettingsLight" parent="@android:style/Theme.Material">
+    <style name="SettingsLight" parent="@*android:style/Theme.Material">
         <item name="android:colorPrimary">@*common:color/dom_blue_700</item>
         <item name="android:colorPrimaryDark">@*common:color/dom_blue_900</item>
     </style>
-    <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.Material">
+    <style name="NetworkOperatorsSettingsTheme" parent="@*android:style/Theme.Material">
         <item name="android:colorPrimary">@*common:color/dom_blue_700</item>
         <item name="android:colorPrimaryDark">@*common:color/dom_blue_900</item>
     </style>
-    <style name="DialerAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:background">#ff000000</item>
+    <style name="DialerAlertDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:colorPrimary">@*common:color/dom_blue_700</item>
         <item name="android:colorPrimaryDark">@*common:color/dom_blue_900</item>
         <item name="android:colorAccent">@*common:color/dom_blue_700</item>
     </style>
-    <style name="Theme.Telecom.DialerSettings" parent="@android:style/Theme.Material">
+    <style name="Theme.Telecom.DialerSettings" parent="@*android:style/Theme.Material">
         <item name="android:colorForeground">#ffffffff</item>
         <item name="android:colorPrimary">@*common:color/dom_blue_700</item>
         <item name="android:colorPrimaryDark">@*common:color/dom_blue_900</item>

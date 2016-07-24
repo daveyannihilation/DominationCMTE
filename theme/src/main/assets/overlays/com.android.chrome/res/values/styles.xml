@@ -88,12 +88,12 @@
         <item name="android:layout_weight">1.0</item>
     </style>
 
-    <style name="WebNotificationButton" parent="@android:style/Widget.DeviceDefault.Button.Borderless.Small">
+    <style name="WebNotificationButton" parent="@*android:style/Widget.DeviceDefault.Button.Borderless.Small">
         <item name="android:textColor">#ffdddddd</item>
     </style>
 
     <style name="SigninPromoDialog" parent="@style/Platform.AppCompat.Light">
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
@@ -105,7 +105,7 @@
     </style>
     <style name="ContextualSearchTextViewLayout">
         <item name="android:layout_gravity">bottom</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingLeft">53.0dip</item>
         <item name="android:paddingRight">53.0dip</item>
         <item name="android:visibility">invisible</item>
@@ -132,12 +132,12 @@
         <item name="android:requiresFadingEdge">horizontal</item>
     </style>
     <style name="PhysicalWebNearbyUrlsListStyle" parent="@style/Platform.AppCompat.Light">
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
     <style name="PhysicalWebOptInStyle" parent="@style/Platform.AppCompat.Light">
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

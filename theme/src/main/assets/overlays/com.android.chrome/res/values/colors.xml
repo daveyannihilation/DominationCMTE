@@ -26,7 +26,7 @@
     <color name="wallet_holo_blue_light">#ff1976d2</color>
     <color name="wallet_link_text_light">#ff0d47a1</color>
     <color name="color_picker_border_color">#ff555555</color>
-    <color name="color_picker_background_color">#ff000000</color>
+    <color name="color_picker_background_color">@*android:color/background_floating_material_dark</color>
     <color name="dropdown_divider_color">#ffaaaaaa</color>
     <color name="dropdown_dark_divider_color">#ffaaaaaa</color>
     <color name="abc_search_url_text_normal">#ff388e3c</color>
@@ -34,10 +34,10 @@
     <color name="abc_search_url_text_pressed">#ffffffff</color>
     <color name="foreground_material_dark">#ffffffff</color>
     <color name="foreground_material_light">#ffffffff</color>
-    <color name="background_material_dark">#ff000000</color>
-    <color name="background_material_light">#ff000000</color>
-    <color name="background_floating_material_dark">#ff000000</color>
-    <color name="background_floating_material_light">#ff000000</color>
+    <color name="background_material_dark">@*android:color/background_dark</color>
+    <color name="background_material_light">@*android:color/background_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
     <color name="primary_material_dark">#ff111111</color>
     <color name="primary_material_light">#ff111111</color>
     <color name="primary_dark_material_dark">#ff000000</color>
@@ -123,7 +123,7 @@
     <color name="expandable_group_dark_gray">#ff000000</color>
     <color name="data_reduction_compressed_color">#ff1976d2</color>
     <color name="data_reduction_original_color">#ff787878</color>
-    <color name="data_reduction_chart_background_color">#ff000000</color>
+    <color name="data_reduction_chart_background_color">@*android:color/background_dark</color>
     <color name="compositor_tab_title_bar_text">#ffffffff</color>
     <color name="compositor_tab_title_bar_text_incognito">#ffffffff</color>
     <color name="fre_text_color">#ffdddddd</color>
@@ -131,8 +131,8 @@
     <color name="signin_light_text_color">#ffdddddd</color>
     <color name="sad_tab_header_text_color">#ffffffff</color>
     <color name="sad_tab_body_text_color">#ffdddddd</color>
-    <color name="ntp_bg">#ff000000</color>
-    <color name="ntp_bg_incognito">#ff000000</color>
+    <color name="ntp_bg">@*android:color/background_dark</color>
+    <color name="ntp_bg_incognito">@*android:color/background_dark</color>
     <color name="ntp_list_item_text">#ffdddddd</color>
     <color name="ntp_list_header_text">#ffffffff</color>
     <color name="ntp_list_header_subtext">#ffdddddd</color>
@@ -144,7 +144,7 @@
     <color name="snippets_read_more_link_color">#ff1976d2</color>
     <color name="illustration_background_color">#ff1976d2</color>
     <color name="contextual_search_promo_text_color">#ffdddddd</color>
-    <color name="contextual_search_promo_background_color">#ff000000</color>
+    <color name="contextual_search_promo_background_color">@*android:color/background_dark</color>
     <color name="progress_bar_foreground">#ff1976d2</color>
     <color name="progress_bar_foreground_white">#ffffffff</color>
     <color name="progress_bar_background">#3d1976d2</color>
@@ -165,9 +165,9 @@
     <color name="find_in_page_results_status_color">#ffdddddd</color>
     <color name="find_in_page_results_status_white_color">#ffdddddd</color>
     <color name="find_in_page_failed_results_status_color">#ffd32f2f</color>
-    <color name="light_background_color">#ff000000</color>
+    <color name="light_background_color">@*android:color/background_dark</color>
     <color name="reader_mode_header_bg">#ff111111</color>
-    <color name="webapp_default_bg">#ff000000</color>
+    <color name="webapp_default_bg">@*android:color/background_dark</color>
     <color name="webapp_url_bar_bg">#ff111111</color>
     <color name="webapp_url_bar_separator">#ffaaaaaa</color>
     <color name="bookmark_detail_text">#ffdddddd</color>
@@ -178,7 +178,7 @@
     <color name="bookmark_appbar_background">#ff111111</color>
     <color name="opt_out_text_color">#ffdddddd</color>
     <color name="media_session_icon_color">#ffffffff</color>
-    <color name="physical_web_header_color">#ff000000</color>
+    <color name="physical_web_header_color">@*android:color/background_dark</color>
     <color name="physical_web_url_color">#ffdddddd</color>
     <color name="physical_web_url_description_color">#ffdddddd</color>
     <color name="physical_web_logo_gray_tint">#ffffffff</color>

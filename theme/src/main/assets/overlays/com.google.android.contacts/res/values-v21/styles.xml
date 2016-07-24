@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="PeopleTheme1" parent="@android:style/Theme.Material">
+    <style name="PeopleTheme1" parent="@*android:style/Theme.Material">
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffbbbbbb</item>
         <item name="android:colorForeground">#ffffffff</item>
@@ -10,9 +10,9 @@
         <item name="android:colorAccent">@*common:color/dom_blue_700</item>
         <item name="android:statusBarColor">@*common:color/dom_blue_900</item>
     </style>
-    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#ff000000</item>
-        <item name="android:background">#ff000000</item>
+    <style name="ContactsAlertDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:colorControlActivated">@*common:color/dom_blue_700</item>
         <item name="android:colorAccent">@*common:color/dom_blue_700</item>
         <item name="android:statusBarColor">@*common:color/dom_blue_900</item>

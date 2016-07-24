@@ -61,7 +61,7 @@
     </style>
     <style name="AccountSetupDialogActivityTheme" parent="@*android:style/Theme.Holo.Dialog.NoActionBar" />
     <style name="ComposeTheme" parent="@style/UnifiedEmailTheme.Appcompat">
-        <item name="android:colorBackground">@*android:color/background_dark</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:dropDownListViewStyle">@style/ComposeDropdownListViewStyle</item>
         <item name="android:colorBackgroundCacheHint">@*android:color/background_dark</item>
@@ -76,7 +76,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">32.0dip</item>
-        <item name="android:popupBackground">@*android:color/background_dark</item>
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
         <item name="android:inputType">textEmailAddress|textMultiLine</item>
     </style>
 

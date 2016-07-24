@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="CalculatorTheme" parent="@android:style/Theme.Material">
+    <style name="CalculatorTheme" parent="@*android:style/Theme.Material">
         <item name="android:colorForeground">#ffffffff</item>
-        <item name="android:colorBackground">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
         <item name="android:textColorPrimary">#ffffffff</item>
         <item name="android:textColorSecondary">#ffdddddd</item>
         <item name="android:textColor">#ffffffff</item>
-        <item name="android:popupBackground">#ff000000</item>
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
     </style>
-    <style name="Theme" parent="@android:style/Theme.Material">
+    <style name="Theme" parent="@*android:style/Theme.Material">
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
         <item name="android:colorPrimary">@*common:color/dom_cyan_900</item>
         <item name="android:statusBarColor">@*common:color/dom_cyan_900</item>
     </style>
-    <style name="DisplayTextStyle" parent="@android:style/Widget.Material.TextView">
+    <style name="DisplayTextStyle" parent="@*android:style/Widget.Material.TextView">
         <item name="android:gravity">end|bottom|center</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="android:cursorVisible">false</item>

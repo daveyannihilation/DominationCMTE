@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="cardview_light_background">#ff111111</color>
-    <color name="cardview_dark_background">#ff111111</color>
+    <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
+    <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="dialer_theme_color">@*common:color/dom_blue_700</color>
     <color name="dialer_theme_color_dark">@*common:color/dom_blue_900</color>
-    <color name="background_dialpad">#ff000000</color>
+    <color name="background_dialpad">@*android:color/background_dark</color>
     <color name="background_dialpad_pressed">#ff777777</color>
     <color name="dialpad_primary_text_color">#ffffffff</color>
     <color name="dialpad_secondary_text_color">#ffdddddd</color>
@@ -12,7 +12,7 @@
     <color name="dialpad_separator_line_color">#ffaaaaaa</color>
     <color name="dialpad_icon_tint">#ffdddddd</color>
     <color name="dialpad_voicemail_tint">#ffdddddd</color>
-    <color name="holo_list_background_color">#ff000000</color>
+    <color name="holo_list_background_color">@*android:color/background_dark</color>
     <color name="primary_text_color">#ffffffff</color>
     <color name="secondary_text_color">#ffdddddd</color>
     <color name="section_header_text_color">@*common:color/dom_blue_700</color>
@@ -29,13 +29,13 @@
     <color name="actionbar_background_color">@*common:color/dom_blue_700</color>
     <color name="actionbar_background_color_dark">@*common:color/dom_blue_900</color>
     <color name="searchbox_text_color">#ffffffff</color>
-    <color name="searchbox_background_color">#ff111111</color>
+    <color name="searchbox_background_color">@*android:color/background_floating_material_dark</color>
     <color name="searchbox_hint_text_color">#ffbbbbbb</color>
     <color name="searchbox_icon_tint">#ffffffff</color>
     <color name="search_shortcut_background_color">#ff222222</color>
     <color name="search_shortcut_icon_color">#ffffffff</color>
-    <color name="background_primary">#ff000000</color>
-    <color name="contact_all_list_background_color">#ff000000</color>
+    <color name="background_primary">@*android:color/background_dark</color>
+    <color name="contact_all_list_background_color">@*android:color/background_dark</color>
     <color name="text_highlight_color">@*common:color/dom_blue_700</color>
     <color name="contact_tile_text_color">#ffffffff</color>
     <color name="starred_quick_contact_name_text_color">#ffffffff</color>
@@ -97,12 +97,12 @@
     <color name="section_divider_bg">#ffaaaaaa</color>
     <color name="edit_kind_text_appearance_text_color">#ffffffff</color>
     <color name="exposed_account_header_bg">#ff111111</color>
-    <color name="exposed_bg_dark">#ff000000</color>
+    <color name="exposed_bg_dark">@*android:color/background_dark</color>
     <color name="exposed_contact_list_name_text_color">#ffffffff</color>
     <color name="exposed_ContactsActionBarTheme_hint">#ffdddddd</color>
     <color name="exposed_ContactsActionBarTheme_text">#ffffffff</color>
     <color name="exposed_SectionDivider">#ffaaaaaa</color>
     <color name="exposed_EditKindTextAppearanceStyle">#ffffffff</color>
     <color name="back_arrow_icon_tint_color">@*common:color/dom_blue_700</color>
-    <color name="group_list_background_color">#ff000000</color>
+    <color name="group_list_background_color">@*android:color/background_dark</color>
 </resources>

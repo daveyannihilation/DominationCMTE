@@ -25,4 +25,7 @@
     <color name="dom_yellow_900">#fff57f17</color>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="selected">#ff555555</color>
+    <color name="background_dark">#ff000000</color>
+    <color name="background_material_dark">#ff000000</color>
+    <color name="background_floating_material_dark">#ff111111</color>
 </resources>

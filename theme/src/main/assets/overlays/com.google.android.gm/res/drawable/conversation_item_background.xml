@@ -2,7 +2,7 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@*common:color/selected" />
-    <item android:state_checked="true" android:drawable="@*common:color/dom_action_card" />
-    <item android:drawable="@*common:color/dom_action_card" android:state_activated="true" />
+    <item android:state_checked="true" android:drawable="@*common:color/selected" />
+    <item android:drawable="@*common:color/selected" android:state_activated="true" />
     <item android:drawable="@android:color/background_dark" />
 </selector>

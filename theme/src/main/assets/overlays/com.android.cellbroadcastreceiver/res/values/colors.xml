@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="unread_bgcolor">#ff111111</color>
-    <color name="read_bgcolor">#ff000000</color>
+    <color name="unread_bgcolor">@*android:color/background_floating_material_dark</color>
+    <color name="read_bgcolor">@*android:color/background_dark</color>
     <color name="cell_broadcast_color_primary">#ff111111</color>
     <color name="cell_broadcast_color_primary_dark">#ff000000</color>
-    <color name="list_container_background_color">#ff000000</color>
-    <color name="list_container_cache_color_hint_color">#ff111111</color>
+    <color name="list_container_background_color">@*android:color/background_dark</color>
+    <color name="list_container_cache_color_hint_color">@*android:color/background_floating_material_dark</color>
 </resources>

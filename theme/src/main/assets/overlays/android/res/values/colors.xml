@@ -18,11 +18,11 @@
     <color name="exposed_primary_text_dark">#ffffffff</color>
     <color name="exposed_secondary_text_dark">#ffdddddd</color>
     <color name="dslv_icon_dark">#ffffffff</color>
-    <color name="background_material_dark">#ff000000</color>
-    <color name="background_floating_material_dark">#ff000000</color>
-    <color name="holo_blue_light">#ffffffff</color>
-    <color name="holo_blue_dark">#ffffffff</color>
-    <color name="holo_blue_bright">#ffffffff</color>
+    <color name="background_material_dark">@*common:color/background_material_dark</color>
+    <color name="background_floating_material_dark">@*common:color/background_floating_material_dark</color>
+    <color name="holo_blue_light">@*common:color/accent_material_dark</color>
+    <color name="holo_blue_dark">@*common:color/accent_material_dark</color>
+    <color name="holo_blue_bright">@*common:color/accent_material_dark</color>
     <color name="micro_text_light">#ffdddddd</color>
     <color name="notification_icon_bg_color">#ff333333</color>
     <color name="notification_action_color_filter">#ffffffff</color>
@@ -42,11 +42,11 @@
     <color name="accent_material_dark">@*common:color/accent_material_dark</color>
     <color name="transparent">#00000000</color>
     <color name="exposed_notification_big_pic_bg">#cc000000</color>
-    <color name="exposed_resolver_list_bg">#ff000000</color>
+    <color name="exposed_resolver_list_bg">@*android:color/background_floating_material_dark</color>
     <color name="exposed_notify_action_text">#ffffffff</color>
-    <color name="background_dark">#ff000000</color>
-    <color name="background_leanback_dark">#ff000000</color>
-    <color name="background_leanback_light">#ff000000</color>
+    <color name="background_dark">@*common:color/background_dark</color>
+    <color name="background_leanback_dark">@*android:color/background_floating_material_dark</color>
+    <color name="background_leanback_light">@*android:color/background_floating_material_dark</color>
     <color name="primary_text_leanback_dark">#ffffffff</color>
     <color name="secondary_text_leanback_dark">#ffdddddd</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
@@ -85,11 +85,11 @@
     <color name="datepicker_default_circle_background_color_material_dark">#ffffffff</color>
     <color name="datepicker_default_view_animator_color_material_light">#ff000000</color>
     <color name="datepicker_default_view_animator_color_material_dark">#ff000000</color>
-    <color name="resolver_list_bg">#ff000000</color>
-    <color name="global_menu_icon">@color/material_deep_teal_200</color>
+    <color name="resolver_list_bg">@*android:color/background_floating_material_dark</color>
+    <color name="global_menu_icon">@*common:color/accent_material_light</color>
     <color name="global_menu_icon_enabled">@*common:color/accent_material_dark</color>
     <color name="chooser_grid_bg">#ff000000</color>
-    <color name="chooser_service_row_background_color">#ff000000</color>
+    <color name="chooser_service_row_background_color">@*android:color/background_floating_material_dark</color>
 
     <!-- Exposed Hard coded colors -->
     <color name="edit_side_paste_window_text_color">#ffffffff</color>
@@ -97,7 +97,7 @@
     <color name="edit_action_popup_text_color">#ffffffff</color>
     <color name="dropdown_item_2line_text_color">#ffffffff</color>
     <color name="web_view_dropdown_text_color">#ffffffff</color>
-    <color name="web_view_dropdown_background_color">#ff000000</color>
+    <color name="web_view_dropdown_background_color">@*android:color/background_floating_material_dark</color>
     <color name="pin_error_message_text_color">@*common:color/dom_red_700</color>
     <color name="perms_costs_money_text_color">#ffffffff</color>
     <color name="recent_apps_text_color">#ffffffff</color>
@@ -107,10 +107,10 @@
     <color name="activity_list_divider_color">@color/transparent</color>
     <color name="dialog_divider_color">@color/transparent</color>
     <color name="status_bar_latest_event_content_bg_color">#ff000000</color>
-    <color name="choose_account_type_background_color">#ff111111</color>
-    <color name="alert_dialog_micro_background_color">#ff000000</color>
+    <color name="choose_account_type_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="alert_dialog_micro_background_color">@*android:color/background_floating_material_dark</color>
     <color name="lockscreen_middle_button_tint_color">#ffffffff</color>
-    <color name="immersive_cling_bg_color">#ff00796b</color>
+    <color name="immersive_cling_bg_color">@*common:color/background_floating_material_dark</color>
     <color name="immersive_cling_text_color">#ffffffff</color>
     <color name="app_permission_icon_tint">#ffffffff</color>
 </resources>

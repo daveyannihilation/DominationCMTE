@@ -21,8 +21,8 @@
     <style name="ConfirmAddDetailDialogTheme" parent="@*android:style/Theme.Material.Dialog.MinWidth" />
     <style name="ContactEditorAccountsChangedActivityTheme" parent="@*android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
     <style name="ContactsAlertDialogTheme" parent="@*android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#ff000000</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="android:colorControlActivated">@*common:color/dom_blue_700</item>
         <item name="android:colorAccent">@*common:color/dom_blue_700</item>
         <item name="android:statusBarColor">@*common:color/dom_blue_900</item>

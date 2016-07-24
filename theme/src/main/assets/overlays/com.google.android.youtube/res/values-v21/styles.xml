@@ -27,5 +27,14 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-
+    <style name="CardboardDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="InfoCards">
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="InfoCardsWatchNext">
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="GvrDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
 </resources>

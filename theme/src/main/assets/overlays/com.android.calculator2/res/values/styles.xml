@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme" parent="@android:style/Theme.Material">
+    <style name="Theme" parent="@*android:style/Theme.Material">
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
         <item name="android:colorPrimary">#ff006064</item>
         <item name="android:statusBarColor">@*common:color/dom_cyan_900</item>
     </style>
-    <style name="DisplayTextStyle" parent="@android:style/Widget.Material.TextView">
+    <style name="DisplayTextStyle" parent="@*android:style/Widget.Material.TextView">
         <item name="android:gravity">end|bottom|center</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="android:cursorVisible">false</item>
@@ -13,7 +13,7 @@
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textAlignment">viewEnd</item>
     </style>
-    <style name="PadButtonStyle" parent="@android:style/Widget.Material.Button.Borderless">
+    <style name="PadButtonStyle" parent="@*android:style/Widget.Material.Button.Borderless">
         <item name="android:textColor">#ffffffff</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">fill</item>
@@ -33,13 +33,13 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
     </style>
-    <style name="CalculatorTheme" parent="@android:style/Theme.Material.NoActionBar">
+    <style name="CalculatorTheme" parent="@*android:style/Theme.Material.NoActionBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:colorPrimary">#ff006064</item>
         <item name="android:statusBarColor">@*common:color/dom_cyan_900</item>
-        <item name="android:navigationBarColor">#ff000000</item>
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>
     </style>
-    <style name="DisplayEditTextStyle" parent="@android:style/Widget.Material.EditText">
+    <style name="DisplayEditTextStyle" parent="@*android:style/Widget.Material.EditText">
         <item name="android:gravity">end|bottom|center</item>
         <item name="android:background">#00000000</item>
         <item name="android:cursorVisible">false</item>

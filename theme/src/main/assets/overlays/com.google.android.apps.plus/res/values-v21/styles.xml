@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@android:style/TextAppearance.Material" />
-    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@android:style/TextAppearance.Material.Large" />
-    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@android:style/TextAppearance.Material.Medium" />
-    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@android:style/TextAppearance.Material.Small" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
-    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@android:style/Widget.Material.ActionBar.TabText" />
-    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@android:style/Widget.Material.ActionBar.TabText" />
-    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@android:style/Widget.Material.ActionBar.TabView" />
-    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu" />
-    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material" />
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large" />
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium" />
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
     </style>
-    <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
+    <style name="Platform.AppCompat.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
-    <style name="Platform.ThemeOverlay.AppCompat" parent="@android:style/Theme.Material">
+    <style name="Platform.ThemeOverlay.AppCompat" parent="@*android:style/Theme.Material">
         <item name="android:windowBackground">@android:color/background_dark</item>
     </style>
 
@@ -28,7 +28,7 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingTop">5.0dip</item>
         <item name="android:paddingBottom">5.0dip</item>
         <item name="android:singleLine">true</item>
@@ -39,7 +39,7 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/bottom_bar_item_ripple</item>
+        <item name="android:background">@*android:color/background_dark</item>
         <item name="android:paddingTop">7.0dip</item>
         <item name="android:singleLine">true</item>
         <item name="android:drawablePadding">-5.0dip</item>
@@ -54,15 +54,15 @@
         <item name="android:layout_marginTop">4.0dip</item>
         <item name="android:layout_marginRight">2.0dip</item>
     </style>
-    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material.Dark">
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@*android:style/ThemeOverlay.Material.Dark">
         <item name="isLightTheme">false</item>
         <item name="colorControlHighlight">#4dffffff</item>
     </style>
-    <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@*android:style/ThemeOverlay.Material.Dark.ActionBar">
         <item name="isLightTheme">false</item>
         <item name="colorControlNormal">#ffffffff</item>
     </style>
-    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*android:style/ThemeOverlay.Material.Dark.ActionBar">
         <item name="isLightTheme">false</item>
         <item name="colorControlHighlight">#4dffffff</item>
         <item name="colorControlNormal">#ffffffff</item>

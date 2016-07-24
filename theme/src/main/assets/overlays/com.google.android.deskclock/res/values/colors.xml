@@ -16,10 +16,10 @@
     <color name="abc_input_method_navigation_guard">@*common:color/dom_purple_900</color>
     <color name="foreground_material_dark">#ffffffff</color>
     <color name="foreground_material_light">#ffffffff</color>
-    <color name="background_material_dark">#ff000000</color>
-    <color name="background_material_light">#ff000000</color>
-    <color name="background_floating_material_dark">#ff000000</color>
-    <color name="background_floating_material_light">#ff000000</color>
+    <color name="background_material_dark">@*android:color/background_dark</color>
+    <color name="background_material_light">@*android:color/background_dark</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
     <color name="primary_material_dark">@*common:color/dom_purple_700</color>
     <color name="primary_material_light">@*common:color/dom_purple_700</color>
     <color name="primary_dark_material_dark">@*common:color/dom_purple_900</color>
@@ -53,12 +53,12 @@
     <color name="primary_text_disabled_material_dark">#4dffffff</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="material_grey_900">@*common:color/dom_purple_700</color>
-    <color name="material_grey_850">#ff000000</color>
-    <color name="material_grey_800">#ff000000</color>
+    <color name="material_grey_850">@*android:color/background_dark</color>
+    <color name="material_grey_800">@*android:color/background_floating_material_dark</color>
     <color name="material_grey_600">@*common:color/dom_purple_900</color>
     <color name="material_grey_300">#ffe0e0e0</color>
     <color name="material_grey_100">@*common:color/dom_purple_700</color>
-    <color name="material_grey_50">#ff000000</color>
+    <color name="material_grey_50">@*android:color/background_dark</color>
     <color name="material_deep_teal_200">@*common:color/dom_purple_700</color>
     <color name="material_deep_teal_500">@*common:color/dom_purple_700</color>
     <color name="material_blue_grey_800">@*common:color/dom_purple_700</color>
@@ -112,12 +112,12 @@
     <color name="bright_foreground_light_disabled">#80ffffff</color>
     <color name="clock_white">#ffffffff</color>
     <color name="clock_gray">#b3ffffff</color>
-    <color name="default_background">#ff000000</color>
+    <color name="default_background">@*android:color/background_dark</color>
     <color name="status_bar">@*common:color/dom_purple_900</color>
     <color name="notif_text_grey">#ffffffff</color>
     <color name="control_highlight_color">#42ffffff</color>
-    <color name="notification_bg">#ff000000</color>
-    <color name="notification_icon_bg">#ff000000</color>
+    <color name="notification_bg">@*android:color/background_dark</color>
+    <color name="notification_icon_bg">@*android:color/background_dark</color>
     <color name="notification_pressed">@*common:color/selected</color>
     <color name="notification_divider">#ffaaaaaa</color>
 </resources>

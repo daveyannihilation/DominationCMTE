@@ -2,7 +2,7 @@
 <resources>
     <color name="dialer_theme_color">@*common:color/dom_blue_700</color>
     <color name="dialer_theme_color_dark">@*common:color/dom_blue_900</color>
-    <color name="background_dialpad">#ff000000</color>
+    <color name="background_dialpad">@*android:color/background_dark</color>
     <color name="background_dialpad_pressed">@*common:color/selected</color>
     <color name="dialpad_primary_text_color">@*common:color/dom_blue_700</color>
     <color name="dialpad_secondary_text_color">#ffdddddd</color>
@@ -18,7 +18,7 @@
     <color name="people_app_theme_color">@*common:color/dom_blue_700</color>
     <color name="on_hold_dim_effect">#cc000000</color>
     <color name="manage_conference_secondary_text_color">#ffdddddd</color>
-    <color name="phone_settings_background_color">#ff000000</color>
+    <color name="phone_settings_background_color">@*android:color/background_dark</color>
     <color name="phone_settings_actionbar_text_color">#ffffffff</color>
     <color name="actionbar_background_color">@*common:color/dom_blue_700</color>
     <color name="actionbar_background_color_dark">@*common:color/dom_blue_900</color>
@@ -30,5 +30,5 @@
     <color name="floating_action_button_touch_tint">#80ffffff</color>
     <color name="network_operators_color_primary">@*common:color/dom_blue_700</color>
     <color name="network_operators_color_primary_dark">@*common:color/dom_blue_900</color>
-    <color name="emergency_dialer_background">#ff000000</color>
+    <color name="emergency_dialer_background">@*android:color/background_dark</color>
 </resources>

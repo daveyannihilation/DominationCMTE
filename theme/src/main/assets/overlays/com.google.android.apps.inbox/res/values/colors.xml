@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="recurrence_picker_background">#ff000000</color>
+    <color name="recurrence_picker_background">@*android:color/background_dark</color>
     <color name="recurrence_bubble_text_normal">#ffffffff</color>
     <color name="recurrence_edit_event_text">#ffdddddd</color>
     <color name="recurrence_edit_event_text_hint">#ffbbbbbb</color>
@@ -33,7 +33,7 @@
     <color name="red_focused">#fff44336</color>
     <color name="light_gray">#ff222222</color>
     <color name="dark_gray">#ff222222</color>
-    <color name="line_dark">#ff000000</color>
+    <color name="line_dark">@*android:color/background_dark</color>
     <color name="done_text_color_dark_normal">#ffffffff</color>
     <color name="done_text_color_dark_disabled">#ffaaaaaa</color>
     <color name="done_disabled_dark">#ffaaaaaa</color>
@@ -70,8 +70,8 @@
     <color name="foreground_material_light">#ffffffff</color>
     <color name="background_material_dark">@*android:color/background_dark</color>
     <color name="background_material_light">@*android:color/background_dark</color>
-    <color name="background_floating_material_dark">#ff000000</color>
-    <color name="background_floating_material_light">#ff000000</color>
+    <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
+    <color name="background_floating_material_light">@*android:color/background_floating_material_dark</color>
     <color name="primary_material_dark">#ff111111</color>
     <color name="primary_material_light">#ff111111</color>
     <color name="primary_dark_material_dark">#ff000000</color>
@@ -171,11 +171,11 @@
     <color name="bt_compose_from_dropdown_email_activated">#ff1976d2</color>
     <color name="bt_compose_from_dropdown_email_default">#ffdddddd</color>
     <color name="bt_compose_from_font">#ffffffff</color>
-    <color name="bt_compose_from_selector_dropdown_background_default">#ff000000</color>
+    <color name="bt_compose_from_selector_dropdown_background_default">@*android:color/background_floating_material_dark</color>
     <color name="bt_compose_from_selector_dropdown_background_pressed">#ff555555</color>
-    <color name="bt_compose_task_fragment_background">#ff000000</color>
-    <color name="bt_compose_task_smartmail_container_background">#ff000000</color>
-    <color name="bt_compose_view_task_creating_promo_background">#ff111111</color>
+    <color name="bt_compose_task_fragment_background">@*android:color/background_dark</color>
+    <color name="bt_compose_task_smartmail_container_background">@*android:color/background_dark</color>
+    <color name="bt_compose_view_task_creating_promo_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_contacts_picker_highlight">#ff111111</color>
     <color name="bt_container_blue">#ff1976d2</color>
     <color name="bt_dark_text">#ffffffff</color>
@@ -186,7 +186,7 @@
     <color name="bt_disabled_gray">#ff777777</color>
     <color name="bt_disclaimer">#ffdddddd</color>
     <color name="bt_done_green">#ff388e3c</color>
-    <color name="bt_drawer_background">#ff111111</color>
+    <color name="bt_drawer_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_empty_list_view_background_default">@*android:color/background_dark</color>
     <color name="bt_empty_list_view_button_text">#ffffffff</color>
     <color name="bt_empty_list_view_done_background">#ff388e3c</color>
@@ -199,8 +199,8 @@
     <color name="bt_fact_one_box_summary_font">#ffdddddd</color>
     <color name="bt_faint_text">#ffdddddd</color>
     <color name="bt_generic_smartmail_cv_action_font_blue">#ff1976d2</color>
-    <color name="bt_generic_smartmail_cv_background">#ff000000</color>
-    <color name="bt_generic_smartmail_cv_card_background">#ff111111</color>
+    <color name="bt_generic_smartmail_cv_background">@*android:color/background_dark</color>
+    <color name="bt_generic_smartmail_cv_card_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_generic_smartmail_cv_card_background_pressed">#ff555555</color>
     <color name="bt_generic_smartmail_cv_card_header_default_background">#ff1976d2</color>
     <color name="bt_generic_smartmail_cv_font_black">#ffffffff</color>
@@ -208,7 +208,7 @@
     <color name="bt_generic_smartmail_cv_font_white">#ffffffff</color>
     <color name="bt_generic_smartmail_cv_icon_and_columns_label">#ffdddddd</color>
     <color name="bt_google_blue">#ff1976d2</color>
-    <color name="bt_gray">#ff000000</color>
+    <color name="bt_gray">@*android:color/background_dark</color>
     <color name="bt_green">#ff1976d2</color>
     <color name="bt_highlight">#66fbc02d</color>
     <color name="bt_icon_grey">#ffffffff</color>
@@ -250,16 +250,16 @@
     <color name="bt_letter_tile_x">#ff0097a7</color>
     <color name="bt_letter_tile_y">#ff5d4037</color>
     <color name="bt_letter_tile_z">#ff388e3c</color>
-    <color name="bt_light_grey">#ff111111</color>
+    <color name="bt_light_grey">@*android:color/background_floating_material_dark</color>
     <color name="bt_light_text">#ffffffff</color>
     <color name="bt_media_palette_background">@*android:color/background_dark</color>
-    <color name="bt_media_palette_gray">#ff111111</color>
-    <color name="bt_megalist_background">#ff111111</color>
+    <color name="bt_media_palette_gray">@*android:color/background_floating_material_dark</color>
+    <color name="bt_megalist_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_megalist_item_background">@*android:color/background_dark</color>
     <color name="bt_megalist_item_background_selected">#ff555555</color>
     <color name="bt_message_warning_banner_background">#ffd32f2f</color>
-    <color name="bt_move_to_menu_background">#ff000000</color>
-    <color name="bt_nav_item_background">#ff000000</color>
+    <color name="bt_move_to_menu_background">@*android:color/background_floating_material_dark</color>
+    <color name="bt_nav_item_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_nav_item_background_selected">#ff555555</color>
     <color name="bt_nav_item_background_selected_by_keyboard">#ff1976d2</color>
     <color name="bt_nav_item_done_text_selected">#ff388e3c</color>
@@ -279,7 +279,7 @@
     <color name="bt_onboarding_screen_reminders_explanation_background">#ff1976d2</color>
     <color name="bt_onboarding_screen_smartmail_explanation_background">#ff303f9f</color>
     <color name="bt_onboarding_screen_snooze_explanation_background">#ffe64a19</color>
-    <color name="bt_onebox_background">#ff000000</color>
+    <color name="bt_onebox_background">@*android:color/background_dark</color>
     <color name="bt_onebox_feedback_view">#ffffffff</color>
     <color name="bt_onebox_feedback_view_action_text">#ff1976d2</color>
     <color name="bt_photoviewer_action_bar_title">#ffffffff</color>
@@ -313,11 +313,11 @@
     <color name="bt_smartmail_attachment_text">#ff1976d2</color>
     <color name="bt_smartmail_attachment_text_file_type">#ffdddddd</color>
     <color name="bt_smartmail_attachment_video_no_preview">#ffd32f2f</color>
-    <color name="bt_smartmail_background">#ff111111</color>
+    <color name="bt_smartmail_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_smartmail_background_actions_only">@*android:color/background_dark</color>
     <color name="bt_smartmail_background_dark">@*android:color/background_dark</color>
     <color name="bt_smartmail_cv_event_day_of_month_header_text">#ff1976d2</color>
-    <color name="bt_smartmail_tl_tile_background">#ff111111</color>
+    <color name="bt_smartmail_tl_tile_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_smartmail_tl_tile_background_opaque">@*android:color/background_dark</color>
     <color name="bt_smartreply_callout_background">#ff1976d2</color>
     <color name="bt_smartreply_suggestion_background_with_normal_state">@*android:color/background_dark</color>
@@ -326,7 +326,7 @@
     <color name="bt_smartreply_suggestion_text">#ff1976d2</color>
     <color name="bt_smartreply_suggestion_text_v1">#ff1976d2</color>
     <color name="bt_smartreply_suggestion_view_background">@*android:color/background_dark</color>
-    <color name="bt_snooze_dialog_background">#ff000000</color>
+    <color name="bt_snooze_dialog_background">@*android:color/background_floating_material_dark</color>
     <color name="bt_snooze_yellow">#fffbc02d</color>
     <color name="bt_speed_dial_background">#e6111111</color>
     <color name="bt_status_bar_blue">#ff0d47a1</color>
