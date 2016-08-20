@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.IAPTheme" parent="@android:style/Theme">
+    <style name="Theme.IAPTheme" parent="@*android:style/Theme.Material">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
@@ -8,11 +8,16 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <style name="AppBaseTheme" parent="@android:style/Theme" />
-    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Black">
-        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Material">
+         <item name="colorPrimary">@*common:color/dom_green_700</item>
+         <item name="colorPrimaryDark">@*common:color/dom_green_900</item>
+         <item name="colorAccent">@*common:color/dom_green_700</item>
     </style>
-
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+         <item name="colorPrimary">@*common:color/dom_green_700</item>
+         <item name="colorPrimaryDark">@*common:color/dom_green_900</item>
+         <item name="colorAccent">@*common:color/dom_green_700</item>
+    </style>
     <style name="ConversationMessage">
         <item name="android:textColor">#ffffffff</item>
     </style>
@@ -27,4 +32,59 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:background">@android:color/transparent</item>
     </style>
+
+    <style name="BugleBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+         <item name="colorPrimary">@*common:color/dom_green_700</item>
+         <item name="colorPrimaryDark">@*common:color/dom_green_900</item>
+         <item name="colorAccent">@*common:color/dom_green_700</item>
+    </style>
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V7.Theme.AppCompat.Light" />
+    <style name="Base.V7.Theme.AppCompat.Light" parent="@style/Platform.AppCompat.Light" />
+
+
+    <style name="BugleTheme" parent="@style/BugleBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+         <item name="colorPrimary">@*common:color/dom_green_700</item>
+         <item name="colorPrimaryDark">@*common:color/dom_green_900</item>
+         <item name="colorAccent">@*common:color/dom_green_700</item>
+         <item name="android:textColorHighlight">#80388e3c</item>
+    </style>
+
+    <style name="BugleTheme.DialogActivity" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light.Dialog" />
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@style/Base.V21.Theme.AppCompat.Light.Dialog" />
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="@style/Base.V11.Theme.AppCompat.Light.Dialog" />
+    <style name="Base.V11.Theme.AppCompat.Light.Dialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog" />
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light" />
+
+    <style name="BugleTheme.ConversationListActivity" parent="@style/BugleTheme">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+         <item name="colorPrimary">@*common:color/dom_green_700</item>
+         <item name="colorPrimaryDark">@*common:color/dom_green_900</item>
+         <item name="colorAccent">@*common:color/dom_green_700</item>
+    </style>
+    <style name="appTitleStyle">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="appVersionStyle">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="appCopyrightStyle">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
 </resources>

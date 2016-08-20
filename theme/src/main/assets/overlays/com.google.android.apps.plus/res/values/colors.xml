@@ -276,6 +276,7 @@
     <color name="quantum_black_text">#ffffffff</color>
     <color name="quantum_googblue500">@*common:color/dom_blue_700</color>
     <color name="quantum_googblue500_54">#8b1976d2</color>
+    <color name="quantum_googgreen500">#ff388e3c</color>
     <color name="quantum_grey">@*android:color/background_dark</color>
     <color name="quantum_grey100">@*android:color/background_dark</color>
     <color name="quantum_grey200">@*android:color/background_floating_material_dark</color>
@@ -382,5 +383,4 @@
     <color name="write_place_review_bg">@*android:color/background_dark</color>
     <color name="year_row_divider">#ffaaaaaa</color>
     <color name="youtube_settings_prompt_bg">@*android:color/background_dark</color>
-    <color name="quantum_white_100">@*android:color/background_dark</color>
 </resources>

@@ -131,10 +131,11 @@
     <color name="voicemail_icon_disabled_tint">#80ffffff</color>
     <color name="voicemail_playback_seek_bar_yet_to_play">#ffffffff</color>
     <color name="item_selected">#66555555</color>
-    <color name="background_dialer_white">@*android:color/background_dark</color>
+    <color name="background_dialer_white">@*android:color/background_floating_material_dark</color>
     <color name="background_dialer_light">@*android:color/background_dark</color>
     <color name="background_dialer_results">@*android:color/background_dark</color>
     <color name="background_dialer_call_log">@*android:color/background_dark</color>
+    <color name="background_dialer_call_log_list_item">@*android:color/background_floating_material_dark</color>
     <color name="favorite_contacts_separator_color">#ffaaaaaa</color>
     <color name="undo_dialogue_text_color">#ffbbbbbb</color>
     <color name="empty_list_text_color">#ffbbbbbb</color>

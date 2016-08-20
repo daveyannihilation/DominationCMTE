@@ -163,7 +163,7 @@
     <color name="search_suggestion_item_text">#ffffffff</color>
     <color name="search_banner_bg">@*android:color/background_floating_material_dark</color>
     <color name="search_banner_text">#ffffffff</color>
-    <color name="search_status_bar_color">#ff000000</color>
+    <color name="search_status_bar_color">@*common:color/dom_red_900</color>
     <color name="letter_tile_default_color">#ff222222</color>
     <color name="letter_tile_font_color">#ffffffff</color>
     <color name="checkmark_tile_background_color">@*android:color/background_dark</color>
@@ -218,7 +218,7 @@
     <color name="ad_undo_text_color">@*common:color/dom_orange_900</color>
     <color name="ad_undo_description_text_color">#ffffffff</color>
     <color name="ad_app_install_text_color">#ffffffff</color>
-    <color name="quantum_black_text">#ffffff</color>
+    <color name="quantum_black_text">#ffffffff</color>
     <color name="quantum_black_secondary_text">#ffdddddd</color>
     <color name="quantum_black_hint_text">#ffbbbbbb</color>
     <color name="quantum_black_divider">#ffaaaaaa</color>

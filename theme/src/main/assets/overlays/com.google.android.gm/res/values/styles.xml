@@ -178,6 +178,17 @@
     <style name="NotificationPrimaryText">
         <item name="android:textColor">#ffffffff</item>
     </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="NotificationSendersUnreadTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="NotificationSendersReadTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
     <style name="VacationResponderActionButtonText">
         <item name="android:textAppearance">@*android:style/TextAppearance.Material.Widget.ActionBar.Menu</item>
         <item name="android:textColor">#ffffffff</item>
@@ -204,9 +215,18 @@
         <item name="android:textColor">#ffdddddd</item>
     </style>
     <style name="LabelSyncTheme" parent="@*android:style/Theme.Holo.Dialog" />
-    <style name="GmailTheme.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />
+    <style name="GmailTheme.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
     <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@style/GmailTheme.NoActionBar">
         <item name="android:windowBackground">@*android:color/background_dark</item>
     </style>
     <style name="GmailTheme.NoActionBar.Fullscreen" parent="@*android:style/Theme.Material.NoActionBar.Fullscreen" />
+    <style name="Base.CardView" parent="@*android:style/Widget">
+        <item name="cardCornerRadius">2.0dip</item>
+        <item name="cardElevation">2.0dip</item>
+        <item name="cardMaxElevation">2.0dip</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
 </resources>

@@ -13,6 +13,8 @@
     <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:backgroundTint">@*android:color/background_dark</item>
+         <item name="colorPrimary">@*common:color/dom_green_700</item>
+         <item name="colorPrimaryDark">@*common:color/dom_green_900</item>
+         <item name="colorAccent">@*common:color/dom_green_700</item>
     </style>
 </resources>

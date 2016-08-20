@@ -19,5 +19,6 @@
     <string name="accent_yellow_name">Accent Yellow</string>
     <string name="background_allblack_name">Background AllBlack</string>
     <string name="background_darkgrey_name">Background DarkGrey</string>
+    <string name="hangouts_darkbubbles_name">Hangouts DarkBubbles</string>
     <string name="settings_nocards_name">Settings NoCards</string>
 </resources>

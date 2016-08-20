@@ -12,6 +12,7 @@
     <color name="all_apps_search_market_button_focused_bg_color">#ff777777</color>
     <color name="widgets_view_section_text_color">#ffffffff</color>
     <color name="widgets_view_item_text_color">#ffdddddd</color>
+    <color name="place_autocomplete_prediction_primary_text">#ffffffff</color>
     <color name="widgets_cell_color">@*android:color/background_dark</color>
     <color name="common_signin_btn_dark_text_default">#ffffffff</color>
     <color name="common_signin_btn_dark_text_pressed">#ffffffff</color>
@@ -584,6 +585,7 @@
     <color name="toggle_undo_icon">#61ffffff</color>
     <color name="info_module_background">#08000000</color>
     <color name="departure_info_module_background">#ff222222</color>
+    <color name="closet_activity_background">@*android:color/background_dark</color>
     <color name="go_to_google_now_background">@*android:color/background_floating_material_dark</color>
     <color name="go_to_google_now_background_ripple">#4dffffff</color>
     <color name="assist_beta_branding_background_color">#33000000</color>

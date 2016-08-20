@@ -8,4 +8,10 @@
     <attr name="colorControlNormal" format="color" />
     <attr name="colorControlActivated" format="color" />
     <attr name="colorControlHighlight" format="color" />
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
 </resources>

@@ -8,6 +8,13 @@
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ffdddddd</item>
     </style>
+    <style name="Base.CardView" parent="@*android:style/Widget">
+        <item name="cardCornerRadius">2.0dip</item>
+        <item name="cardElevation">2.0dip</item>
+        <item name="cardMaxElevation">2.0dip</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
     <style name="ListViewStyle" parent="@*android:style/Widget.Material.ListView">
         <item name="android:overScrollMode">always</item>
     </style>
@@ -23,10 +30,15 @@
         <item name="android:windowNoDisplay">false</item>
     </style>
     <style name="Theme.CallSubjectDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
-    <style name="Theme.InCallScreen" parent="@*android:style/Theme.Material" />
+
     <style name="Theme.CircularRevealAnimation" parent="@*android:style/Theme.Material" />
-    <style name="InCallPopupMenuStyle" parent="@*android:style/Theme.Material" />
-    <style name="InCallActionBarStyle" parent="@*android:style/Widget.Material.ActionBar" />
+    <style name="InCallPopupMenuStyle" parent="@*android:style/Theme.Material">
+        <item name="android:textColorPrimary">#ffffffff</item>
+    </style>
+    <style name="InCallActionBarStyle" parent="@*android:style/Widget.Material.ActionBar">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff1976d2</item>
+    </style>
     <style name="DialtactsActionBarOverflow" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
     <style name="DialtactsActionBarOverflowWhite" parent="@*android:style/Widget.Material.ActionButton.Overflow" />
     <style name="DialtactsActionBarTabTextStyle" parent="@*android:style/Widget.Material.ActionBar.TabText" />

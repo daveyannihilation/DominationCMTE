@@ -4,6 +4,7 @@
     <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="dialer_theme_color">@*common:color/dom_blue_700</color>
     <color name="dialer_theme_color_dark">@*common:color/dom_blue_900</color>
+    <color name="background_dialer_call_log_list_item">@*android:color/background_floating_material_dark</color>
     <color name="background_dialpad">@*android:color/background_dark</color>
     <color name="background_dialpad_pressed">@*common:color/selected</color>
     <color name="dialpad_primary_text_color">@*common:color/dom_blue_700</color>
@@ -156,4 +157,6 @@
     <color name="exposed_floating_action_button_solid">@*common:color/dom_blue_700</color>
     <color name="exposed_recents_list_footer_bg">@*android:color/background_dark</color>
     <color name="exposed_dialpad_fragment">#00000000</color>
+    <color name="call_method_spinner_item_text_color">#ffffffff</color>
+    <color name="call_method_spinner_drop_down_arrow">#ffffffff</color>
 </resources>

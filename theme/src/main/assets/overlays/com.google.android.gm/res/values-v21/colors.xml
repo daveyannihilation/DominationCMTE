@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="mini_drawer_activated_background_color">@*common:color/selected</color>
+    <color name="search_status_bar_color">@*common:color/dom_red_900</color>
     <color name="text_color_undo_notification">#ffffffff</color>
     <color name="text_color_undo_notification_description">#ffffffff</color>
+    <color name="loading_messages_background_color">@*android:color/background_dark</color>
 </resources>
